@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+
+
+
+    
+    <style>
+        /* .dropdown {
+          position: relative;
+          display: inline-block;
+          font-size: 25px;
+        }
+        
+        .dropdown-content {
+          display: none;
+          position: absolute;
+          background-color: #f9f9f9;
+          min-width: 160px;
+          box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+          padding: 12px 16px;
+          z-index: 1;
+        }
+
+
+         
+        .dropdown-za {
+          display: none;
+          position: absolute;
+          background-color: #f9f9f9;
+          min-width: 160px;
+          box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+          padding: 12px 16px;
+        
+        }
+        
+        .dropdown:hover .dropdown-content {
+          display: block;
+        }
+
+        .dropdown:hover .dropdown-za{
+            display: block;
+        } */
+
+
+
+
+
+        /* Style The Dropdown Button */
+.dropbtn {
+  background-color: #4CAF50;
+  width: 150px;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+        </style>
+</head>
+<body>
+    
+
+<div class="container">
+
+<div class="navbar">
+
+    <ul>
+
+<!--             
+            <div class="dropdown">
+              <span>Menu</span>
+              <div class="dropdown-content">
+                <p>erkaklar kiymi</p>
+              </div>
+
+              <div class="dropdown-za">
+                <p>erkaklar kiymi</p>
+              </div>
+            </div> -->
+
+
+            <div class="dropdown">
+                <button class="dropbtn">Menu</button>
+                <div class="dropdown-content">
+                  <a href="#">erkaklar kiyimi</a>
+                  <a href="#">ayolar kiyimi</a>
+                  <a href="#">bolalar kiyimi</a>
+                </div>
+              </div>
+
+
+
+
+        <li><div class="item1"> <a href="">Home</a></div></li>
+        <li><div class="item2"> <a href="">Shop  |</a></div></li>
+        <li><div class="item3"> <a href="">Colection   |</a></div></li>
+        <li><div class="item4"> <a href="">Blog   |</a></div></li>
+        <li><div class="item5"> <a href="">Contact   |</a></div></li>
+        <li><div class="item6"> <a href="">Pages  | </a></div></li>
+    </ul>
+
+</div>
+
+<!-- pastki qism carusel -->
+
+
+
+
+<h1>INTIRNET MAGAZIN</h1>
+
+<p>Asalomu alaykum Hush kelibsz</p>
+
+<section class="carousel" aria-label="Gallery">
+  <ol class="carousel__viewport">
+    <li id="carousel__slide1"
+        tabindex="0"
+        class="carousel__slide">
+      <div class="carousel__snapper">
+        <a href="#carousel__slide4"
+           class="carousel__prev">Go to last slide</a>
+        <a href="#carousel__slide2"
+           class="carousel__next">Go to next slide</a>
+      </div>
+
+    </li>
+    <li id="carousel__slide2"
+        tabindex="0"
+        class="carousel__slide">
+      <div class="carousel__snapper"></div>
+      <a href="#carousel__slide1"
+         class="carousel__prev">Go to previous slide</a>
+      <a href="#carousel__slide3"
+         class="carousel__next">Go to next slide</a>
+    </li>
+
+    <li id="carousel__slide3"
+        tabindex="0"
+        class="carousel__slide">
+      <div class="carousel__snapper"></div>
+      <a href="#carousel__slide2"
+         class="carousel__prev">Go to previous slide</a>
+      <a href="#carousel__slide4"
+         class="carousel__next">Go to next slide</a>
+    </li>
+
+    <li id="carousel__slide4"
+        tabindex="0"
+        class="carousel__slide">
+      <div class="carousel__snapper"></div>
+      <a href="#carousel__slide3"
+         class="carousel__prev">Go to previous slide</a>
+      <a href="#carousel__slide1"
+         class="carousel__next">Go to first slide</a>
+    </li>
+
+  </ol>
+  <aside class="carousel__navigation">
+    <ol class="carousel__navigation-list">
+      <li class="carousel__navigation-item">
+        <a href="#carousel__slide1"
+           class="carousel__navigation-button">Go to slide 1</a>
+      </li>
+      <li class="carousel__navigation-item">
+        <a href="#carousel__slide2"
+           class="carousel__navigation-button">Go to slide 2</a>
+      </li>
+      <li class="carousel__navigation-item">
+        <a href="#carousel__slide3"
+           class="carousel__navigation-button">Go to slide 3</a>
+      </li>
+      <li class="carousel__navigation-item">
+        <a href="#carousel__slide4"
+           class="carousel__navigation-button">Go to slide 4</a>
+      </li>
+    </ol>
+  </aside>
+</section>
+
+<br><b><br><br><br><br><br>
+<!-- pastdagi rasmlar -->
+
+
+<div class="pastkiqism">
+
+   <div class="rasm1"> <img src="/samo.avif" alt="" sizes="" srcset=""></div>
+   <div class="rasm2"> <img src="/tabiat.jpg" alt="" srcset=""></div>
+   <div class="rasm3">  ></div>
+
+     
+
+
+</div>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
